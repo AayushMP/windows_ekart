@@ -1,0 +1,151 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #acc8ea;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bdd9fb;
+}
+body {
+  margin: 0px;
+  background: #eef;
+}
+header {
+  background: linear-gradient(to left, #dad299, #b0dab9);
+  padding: 7px;
+  border-bottom: 2px solid #aaf;
+}
+a {
+  font-family: cursive, sans-serif;
+  text-decoration: none;
+  font-size: 32px;
+  color: #000;
+}
+h2 {
+  margin: 0px;
+  font-family: monospace, sans-serif;
+  margin-top: 10px;
+}
+.brand {
+  display: inline-block;
+}
+#logo {
+  width: 37px;
+  height: 32px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.user {
+  float: right;
+}
+input:focus {
+  outline: none;
+}
+#proname {
+  font-family: cursive, sans-serif;
+}
+.products {
+  height: 77vh;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  padding-right: 40px;
+  overflow-y: scroll;
+}
+.line {
+  padding: 5px;
+}
+.obj {
+  margin: 30px;
+  width: 320px;
+  height: 160px;
+}
+.obj.fone {
+  display: inline-block;
+}
+.obj.stwo {
+  float: right;
+}
+.costo, .costt, .costh, .costf, .costv, .costs {
+  background: none;
+  width: 140px;
+  font-size: 25px;
+  border: 1px solid #aaf;
+  margin-right: 55px;
+}
+img {
+  width: 320px;
+  height: 160px;
+}
+.mone, .mtwo, .mthree, .mfour, .mfive, .msix {
+  display: inline-block;
+}
+.quan {
+  background: none;
+  width: 8px;
+  border: 1px solid #000;
+  margin-left: 130px;
+  padding: 2px 5px;
+  display: inline-block;
+}
+.pone, .ptwo, .pthree, .pfour, .pfive, .psix {
+  float: right;
+}
+button {
+  background: #acc8ea;
+  border: 1px solid #111;
+  border-radius: 50%;
+}
+.balance {
+  width: 370px;
+  font-size: 60px;
+  padding: 2px;
+  border: 2px solid #000;
+  margin-right: 45px;
+}
+.totalb {
+  float: right;
+  font-size: 70px;
+}
+h5 {
+  margin: 0px;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-family: arial;
+  font-weight: lighter;
+}
+.dollar {
+  margin: 0px;
+  margin-top: 10px;
+}
+.balance {
+  text-align: right;
+  background: linear-gradient(to right, #ddaf00, #ffd700);
+}
+#userimg {
+  width: 250px;
+  height: 210px;
+  margin: 50px 80px;
+}
+footer {
+  background: linear-gradient(to left, #dad299, #b0dab9);
+  padding: 10px;
+  border-top: 2px solid #aaf;
+  border-radius: 5px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 13px;
+  font-weight: bold;
+}
